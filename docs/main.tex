@@ -1,0 +1,39 @@
+\documentclass[pdftex,letterpaper, oneside]{article}
+\usepackage[margin=1in,headheight=13.6pt]{geometry}
+
+\usepackage{graphicx} 
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{setspace}
+\begin{document}
+
+ \setlength{\parskip}{4mm}
+ \newcommand{\listequationsname}{Lista de ecuaciones}
+ \newlistof{myequations}{equ}{\Large\listequationsname}
+ \newcommand{\myequations}[1]{
+ \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+
+\fancypagestyle{plain}{
+  \renewcommand{\headrulewidth}{0.0pt}
+  \fancyfoot{}
+  \fancyhead{}
+}
+
+\input{layout/title.tex}
+
+\tableofcontents
+\listoffigures
+\listofmyequations
+\newpage
+
+\input{layout/content.tex}
+
+\end{document}

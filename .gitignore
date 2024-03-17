@@ -1,0 +1,21 @@
+# Auxiliar LaTeX files generated while compiling.
+*.aux
+*.equ
+*.fdb_latexmk
+*.fls
+*.lof
+*.out
+*.gz
+*.toc
+*.log
+*.glsdefs
+*.glo
+*.acn
+*.ist
+
+# Python Files
+src/__pycache__/
+env/
+
+# IDE Preferences
+.vscode
