@@ -106,7 +106,7 @@ div.custom-container {
     row-gap: var(--row-grid-gap);
 }
 
-div.custom-container div.child-container{
+div.custom-container div.child-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -153,7 +153,7 @@ input:not([type=radio]) {
     padding: 2px 5px 0px;
 }
 
-select{
+select {
     background-color: var(--background-color);
 }
 
@@ -193,10 +193,33 @@ div.asignatures {
     width: 100%;
     text-align: center;
     font-size: var(--signature-font-size);
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: var(--regular-weight);
     color: var(--default-text-color);
+}
+
+div.asignatures span:hover::before {
+    content: attr(name);
+    position: absolute;
+    background-color: var(--default-text-color);
+    color: var(--background-color);
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 2px 15px;
+    border-radius: 17px;
+    translate: -2px 0px;
+    opacity: 0.89;
+    z-index: 1;
+    animation: sudenlyAppear 1s linear;
+}
+
+div.asignatures span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 12px;
 }
 
 div.asignatures span:not(.unavailable):not(.failed):not(.approved):hover {
@@ -250,19 +273,38 @@ button {
     font-weight: 500;
 }
 
-button.main:hover,button.secondary:hover{
+button.main:hover,
+button.secondary:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-button.main{
+button.main {
     background-color: var(--super-dark-color);
     color: var(--background-color);
     border: 2px solid var(--super-dark-color);
 }
 
-button.secondary{
+button.secondary {
     color: var(--super-dark-color);
     border: 2px solid var(--super-dark-color);
     background-color: var(--background-color);
+}
+
+@keyframes sudenlyAppear {
+    0% {
+        opacity: 0%;
+    }
+
+    89% {
+        opacity: 0%;
+    }
+
+    95% {
+        opacity: 0.89;
+    }
+
+    100% {
+        opacity: 0.89;
+    }
 }
