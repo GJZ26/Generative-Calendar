@@ -1,0 +1,310 @@
+:root {
+    font-family: var(--principal-font);
+    font-size: 10px;
+
+    /* Colors Variables */
+    --super-dark-color: #454040;
+    --accent-text-color: #3F3F3F;
+    --default-text-color: #666;
+    --semi-hidde-text-color: #858585;
+    --super-hidde-text-color: #9F9F9F;
+    --super-super-text-color: #dbdbdb;
+    --super-duper-hidde-text-color: #FDFDFD;
+    --super-duper-hiper-hidde-text-color: #F4F4F4;
+    --background-color: #FFF;
+
+    /* Dimensions Sizes */
+    --header-font-size: 2.4rem;
+    --sections-font-size: 2.3rem;
+    --input-font-size: 1.4rem;
+    --column-grid-gap: 8.7rem;
+    --input-width: 9.6rem;
+    --signature-font-size: 1.5rem;
+    --row-grid-gap: 1.5rem;
+
+    /* Fonts */
+    --medium-weight: 500;
+    --regular-weight: 400;
+    --bold-weight: 550;
+    --principal-font: "Mohave", sans-serif, system-ui, -apple-system;
+
+    /* Time */
+    --default-animation-duration: 200ms;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--accent-text-color);
+    padding: 11px 36px;
+}
+
+nav h1 {
+    margin: 0 0 0 0;
+    font-size: var(--header-font-size);
+    font-weight: var(--medium-weight);
+    color: var(--accent-text-color);
+    cursor: default;
+}
+
+nav a {
+    font-size: 1.6rem;
+    color: var(--semi-hidde-text-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 1.6rem;
+    color: var(--accent-text-color);
+    text-decoration: underline;
+    transition: color var(--default-animation-duration);
+}
+
+main {
+    margin: 0;
+    padding: 25px 70px;
+}
+
+main section:not(:last-child) {
+    border-bottom: 1px solid var(--super-hidde-text-color);
+    padding-bottom: 20px;
+}
+
+main h2 {
+    color: var(--accent-text-color);
+    font-weight: var(--medium-weight);
+    letter-spacing: 2px;
+    font-size: var(--sections-font-size);
+    cursor: default;
+}
+
+select {
+    width: var(--input-width);
+    font-family: var(--principal-font);
+    color: var(--default-text-color);
+    border: solid 1px var(--super-hidde-text-color);
+}
+
+div.horizontal-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--row-grid-gap);
+    column-gap: var(--column-grid-gap);
+}
+
+div.custom-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: var(--column-grid-gap);
+    row-gap: var(--row-grid-gap);
+}
+
+div.custom-container div.child-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: var(--row-grid-gap);
+}
+
+
+.as-label,
+label:is(:not(.as-input)) {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    font-size: 1.5rem;
+    color: var(--default-text-color);
+    cursor: default;
+}
+
+label.as-input input[type=radio] {
+    display: none;
+}
+
+label.as-input {
+    font-size: var(--input-font-size);
+    color: var(--super-hidde-text-color);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+label.as-input:hover {
+    color: var(--semi-hidde-text-color);
+}
+
+label:has(input:checked) {
+    color: var(--default-text-color);
+    text-decoration: underline;
+}
+
+input:not([type=radio]) {
+    width: var(--input-width);
+    border: solid 1px var(--super-hidde-text-color);
+    font: var(--principal-font);
+    font-size: var(--input-font-size);
+    color: var(--default-text-color);
+    padding: 2px 5px 0px;
+}
+
+select {
+    background-color: var(--background-color);
+}
+
+input:focus,
+select:focus {
+    border: solid 1px var(--accent-text-color);
+    outline: none;
+}
+
+div.calendar {
+    display: flex;
+    width: 258px;
+}
+
+span.title {
+    background-color: var(--super-dark-color);
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    font-size: var(--signature-font-size);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: var(--regular-weight);
+    color: var(--background-color);
+    padding: 0px 4px;
+    cursor: pointer;
+}
+
+span.title:hover {
+    background-color: var(--accent-text-color);
+}
+
+div.asignatures {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--super-duper-hidde-text-color);
+    width: 100%;
+    text-align: center;
+    font-size: var(--signature-font-size);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: var(--regular-weight);
+    color: var(--default-text-color);
+}
+
+div.asignatures span:hover::before {
+    content: attr(name);
+    position: absolute;
+    background-color: var(--default-text-color);
+    color: var(--background-color);
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 2px 15px;
+    border-radius: 17px;
+    translate: -2px 0px;
+    opacity: 0.89;
+    z-index: 1;
+    animation: sudenlyAppear 1s linear;
+}
+
+div.asignatures span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 12px;
+}
+
+div.asignatures span:not(.unavailable):not(.failed):not(.approved):hover {
+    background-color: var(--super-super-text-color);
+    cursor: pointer;
+}
+
+div.asignatures span.unavailable:hover,
+div.asignatures span.failed:hover,
+div.asignatures span.approved:hover {
+    filter: saturate(200%);
+}
+
+span.unavailable {
+    background-color: var(--super-duper-hiper-hidde-text-color);
+    color: var(--super-super-text-color);
+    cursor: default;
+}
+
+span.failed {
+    background-color: #FF6767;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+span.approved {
+    background-color: #A9FFBD;
+    cursor: pointer;
+}
+
+div.calendars-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 45px;
+    row-gap: 27px;
+    justify-content: flex-start;
+}
+
+div.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+button {
+    font-family: var(--principal-font);
+    outline: none;
+    border: none;
+    padding: 8px 17px;
+    font-weight: 500;
+}
+
+button.main:hover,
+button.secondary:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button.main {
+    background-color: var(--super-dark-color);
+    color: var(--background-color);
+    border: 2px solid var(--super-dark-color);
+}
+
+button.secondary {
+    color: var(--super-dark-color);
+    border: 2px solid var(--super-dark-color);
+    background-color: var(--background-color);
+}
+
+@keyframes sudenlyAppear {
+    0% {
+        opacity: 0%;
+    }
+
+    89% {
+        opacity: 0%;
+    }
+
+    95% {
+        opacity: 0.89;
+    }
+
+    100% {
+        opacity: 0.89;
+    }
+}
