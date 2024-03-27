@@ -291,6 +291,69 @@ button.secondary {
     background-color: var(--background-color);
 }
 
+div.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+table {
+    width: calc(150px* 6);
+}
+
+
+table th {
+    color: var(--super-dark-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+table tbody tr td, table thead tr td {
+    width: 150px !important;
+    max-width: 100px;
+    padding: 8px 12px;
+}
+tbody tr span {
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+tbody tr span:not(.teacher-name) {
+    color: var(--accent-text-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+tbody tr span:is(.teacher-name) {
+    color: var(--default-text-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+td.time-col {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+table td:not(:empty):not(.time-col){
+    background-color: var(--super-super-text-color);
+}
+
+button.floating{
+    position: sticky;
+    top: 23px;
+    right: 0;
+    left: 98vw;
+    bottom: 10px;
+}
+
 @keyframes sudenlyAppear {
     0% {
         opacity: 0%;

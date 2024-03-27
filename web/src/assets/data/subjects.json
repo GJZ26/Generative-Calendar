@@ -9,7 +9,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         },
         {
             "id": "QUIMB",
@@ -18,7 +18,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         },
         {
             "id": "ALGL",
@@ -27,7 +27,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         },
         {
             "id": "FNCM",
@@ -36,7 +36,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         },
         {
             "id": "ALGM",
@@ -48,7 +48,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         },
         {
             "id": "MATD",
@@ -59,7 +59,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         },
         {
             "id": "EOEA",
@@ -70,7 +70,7 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": true
+            "has_changed": false
         }
     ],
     [

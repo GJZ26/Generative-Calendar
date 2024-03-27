@@ -1,0 +1,178 @@
+[
+    {
+        "quarter": 2,
+        "group": "A",
+        "assignatures": 
+        [
+            {"id":"INGB_2A", "name":"Inglés II","canonical":"INGB", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"DHYV_2A", "name":"Desarrollo Humano y Valores","canonical":"DHYV", "teacher":"Guillermo Salazar Arias", "hours":[30,42,43]},
+            {"id":"CALD_2A", "name":"Cálculo Diferencial","canonical":"CALD", "teacher":"Marcelo Álvarez Hernández", "hours":[3,4,5,12,19,20]},
+            {"id":"POAO_2A", "name":"Programación Orientada a Objetos","canonical":"POAO", "teacher":"Diana Beatriz Vázquez Cruz", "hours":[1,2,16,17,25,26]},
+            {"id":"ESDD_2A", "name":"Estructura de Datos","canonical":"ESDD", "teacher":"Sirgei García Ballinas", "hours":[6,23,24,37,38]},
+            {"id":"ISAC_2A", "name":"Ingeniería de Software Asistida por Computadora","canonical":"ISAC", "teacher":"Efraín Alejandro Macías Caballero", "hours":[10,11,33,34,35]},
+            {"id":"PDDS_2A", "name":"Procesos de Desarrollo de Software","canonical":"PDDS", "teacher":"José Armando Pascacio Glaizar", "hours":[13,14,15,28,29]}
+        ]
+    },
+    {
+        "quarter": 2,
+        "group": "B",
+        "assignatures": 
+        [
+            {"id":"INGB_2B", "name":"Inglés II","canonical":"INGB", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"DHYV_2B", "name":"Desarrollo Humano y Valores","canonical":"DHYV", "teacher":"Guillermo Salazar Arias", "hours":[33,40,41]},
+            {"id":"CALD_2B", "name":"Cálculo Diferencial","canonical":"CALD", "teacher":"Alonso Guadalupe Hernández Mendoza", "hours":[1,2,10,19,34,35]},
+            {"id":"POAO_2B", "name":"Programación Orientada a Objetos","canonical":"POAO", "teacher":"Alí Santiago Lopez Zunun", "hours":[11,24,25,26,37,38]},
+            {"id":"ESDD_2B", "name":"Estructura de Datos","canonical":"ESDD", "teacher":"Horacio Iran Solís Cisnero", "hours":[5,6,15,16,17]},
+            {"id":"ISAC_2B", "name":"Ingeniería de Software Asistida por Computadora","canonical":"ISAC", "teacher":"Efraín Alejandro Macías Caballero", "hours":[12,13,31,32,33]},
+            {"id":"PDDS_2B", "name":"Procesos de Desarrollo de Software","canonical":"PDDS", "teacher":"José Pablo Vázquez Cruz", "hours":[21,22,23,28,29]}
+        ]
+    },
+    {
+        "quarter": 2,
+        "group": "C",
+        "assignatures": 
+        [
+            {"id":"INGB_2C", "name":"Inglés II","canonical":"INGB", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"DHYV_2C", "name":"Desarrollo Humano y Valores","canonical":"DHYV", "teacher":"Guillermo Salazar Arias", "hours":[34,35,37]},
+            {"id":"CALD_2C", "name":"Cálculo Diferencial","canonical":"CALD", "teacher":"Marcelo Álvarez Hernández", "hours":[10,11,21,22,39,40]},
+            {"id":"POAO_2C", "name":"Programación Orientada a Objetos","canonical":"POAO", "teacher":"Alí Santiago Lopez Zunun", "hours":[1,2,12,19,20,31]},
+            {"id":"ESDD_2C", "name":"Estructura de Datos","canonical":"ESDD", "teacher":"Diana Beatriz Vázquez Cruz", "hours":[8,23,24,30,43]},
+            {"id":"ISAC_2C", "name":"Ingeniería de Software Asistida por Computadora","canonical":"ISAC", "teacher":"Efraín Alejandro Macías Caballero", "hours":[15,16,17,28,29]},
+            {"id":"PDDS_2C", "name":"Procesos de Desarrollo de Software","canonical":"PDDS", "teacher":"José Pablo Vázquez Cruz", "hours":[6,7,13,25,26]}
+        ]
+    },
+    {
+        "quarter": 2,
+        "group": "D",
+        "assignatures": 
+        [
+            {"id":"INGB_2D", "name":"Inglés II","canonical":"INGB", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"DHYV_2D", "name":"Desarrollo Humano y Valores","canonical":"DHYV", "teacher":"Guillermo Salazar Arias", "hours":[31,32,38]},
+            {"id":"CALD_2D", "name":"Cálculo Diferencial","canonical":"CALD", "teacher":"Juan Manuel Martinez Constantino", "hours":[14,15,16,19,20,21]},
+            {"id":"POAO_2D", "name":"Programación Orientada a Objetos","canonical":"POAO", "teacher":"Diana Beatriz Vázquez Cruz", "hours":[6,7,12,13,34,35]},
+            {"id":"ESDD_2D", "name":"Estructura de Datos","canonical":"ESDD", "teacher":"Alí Santiago Lopez Zunun", "hours":[22,23,33,39,40]},
+            {"id":"ISAC_2D", "name":"Ingeniería de Software Asistida por Computadora","canonical":"ISAC", "teacher":"Sirgei García Ballinas", "hours":[10,11,28,29,30]},
+            {"id":"PDDS_2D", "name":"Procesos de Desarrollo de Software","canonical":"PDDS", "teacher":"José Pablo Vázquez Cruz", "hours":[1,2,3,41,42]}
+        ]
+    },
+    {
+        "quarter": 4,
+        "group": "A",
+        "assignatures": 
+        [
+            {"id":"INGD_4A", "name":"Inglés IV","canonical":"INGD", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"HCYC_4A", "name":"Habilidades Cognitivas y Creatividad","canonical":"HCYC", "teacher":"Guillermo Salazar Arias", "hours":[28,29,39]},
+            {"id":"MPIA_4A", "name":"Matemáticas para Ingeniería I","canonical":"MPIA", "teacher":"Marcelo Álvarez Hernández", "hours":[1,2,13,14,37,38]},
+            {"id":"PRWB_4A", "name":"Programación Web","canonical":"PRWB", "teacher":"Carlos Alberto Díaz Hernández", "hours":[24,31,32,33,41,42]},
+            {"id":"DSDI_4A", "name":"Diseño de Interfaces","canonical":"DSDI", "teacher":"José Pablo Vázquez Cruz", "hours":[15,16,17,19,20]},
+            {"id":"BBDD_4A", "name":"Bases de Datos","canonical":"BBDD", "teacher":"José Alonso Macías Montoya", "hours":[7,8,25,26,34,35]},
+            {"id":"ELYM_4A", "name":"Electricidad y Magnetismo","canonical":"ELYM", "teacher":"Horacio Iran Solís Cisnero", "hours":[3,11,12,43]}
+        ]
+    },
+    {
+        "quarter": 5,
+        "group": "A",
+        "assignatures": 
+        [
+            {"id":"INGE_5A", "name":"Inglés V","canonical":"INGE", "teacher":"Ulber Nolasco Sánchez", "hours":[14,15,23,24,34]},
+            {"id":"ETPR_5A", "name":"Ética Profesional","canonical":"ETPR", "teacher":"Janeth Elizabeth Castellanos Pinzón", "hours":[25,26,43]},
+            {"id":"MPIB_5A", "name":"Matemáticas para Ingeniería II","canonical":"MPIB", "teacher":"Luber Mendoza Zárate", "hours":[1,2,12,13,28,29]},
+            {"id":"PRCS_5A", "name":"Programación Cliente/Servidor","canonical":"PRCS", "teacher":"Daniel Fernando Pérez Sarmiento", "hours":[19,20,32,33,37,38]},
+            {"id":"FDRD_5A", "name":"Fundamento de Redes","canonical":"FDRD", "teacher":"José Alonso Macías Montoya", "hours":[5,6,10,11,30]},
+            {"id":"ARQS_5A", "name":"Arquitectura de Software","canonical":"ARQS", "teacher":"Alí Santiago Lopez Zunun", "hours":[3,7,8,41,42]},
+            {"id":"SSDD_5A", "name":"Sistemas Digitales","canonical":"SSDD", "teacher":"Sirgei García Ballinas", "hours":[16,17,31,39,40]}
+        ]
+    },
+    {
+        "quarter": 5,
+        "group": "B",
+        "assignatures": 
+        [
+            {"id":"INGE_5B", "name":"Inglés V","canonical":"INGE", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"ETPR_5B", "name":"Ética Profesional","canonical":"ETPR", "teacher":"Janeth Elizabeth Castellanos Pinzón", "hours":[23,24,40]},
+            {"id":"MPIB_5B", "name":"Matemáticas para Ingeniería II","canonical":"MPIB", "teacher":"Luber Mendoza Zárate", "hours":[3,4,14,15,30,31]},
+            {"id":"PRCS_5B", "name":"Programación Cliente/Servidor","canonical":"PRCS", "teacher":"Daniel Fernando Pérez Sarmiento", "hours":[6,7,28,29,42,43]},
+            {"id":"FDRD_5B", "name":"Fundamento de Redes","canonical":"FDRD", "teacher":"Luis Gutiérrez Alfaro", "hours":[5,12,13,19,20]},
+            {"id":"ARQS_5B", "name":"Arquitectura de Software","canonical":"ARQS", "teacher":"José Pablo Vázquez Cruz", "hours":[10,11,32,33,34]},
+            {"id":"SSDD_5B", "name":"Sistemas Digitales","canonical":"SSDD", "teacher":"Sirgei García Ballinas", "hours":[1,2,21,22,41]}
+        ]
+    },
+    {
+        "quarter": 5,
+        "group": "C",
+        "assignatures": 
+        [
+            {"id":"INGE_5C", "name":"Inglés V","canonical":"INGE", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"ETPR_5C", "name":"Ética Profesional","canonical":"ETPR", "teacher":"Janeth Elizabeth Castellanos Pinzón", "hours":[21,22,39]},
+            {"id":"MPIB_5C", "name":"Matemáticas para Ingeniería II","canonical":"MPIB", "teacher":"Luber Mendoza Zárate", "hours":[5,6,10,11,32,33]},
+            {"id":"PRCS_5C", "name":"Programación Cliente/Servidor","canonical":"PRCS", "teacher":"Daniel Fernando Pérez Sarmiento", "hours":[1,2,14,15,23,24]},
+            {"id":"FDRD_5C", "name":"Fundamento de Redes","canonical":"FDRD", "teacher":"José Alonso Macías Montoya", "hours":[12,19,20,37,38]},
+            {"id":"ARQS_5C", "name":"Arquitectura de Software","canonical":"ARQS", "teacher":"Alí Santiago Lopez Zunun", "hours":[16,17,28,29,30]},
+            {"id":"SSDD_5C", "name":"Sistemas Digitales","canonical":"SSDD", "teacher":"Sirgei García Ballinas", "hours":[7,8,25,26,35]}
+        ]
+    },
+    {
+        "quarter": 6,
+        "group": "A",
+        "assignatures": 
+        [
+            {"id":"ESTA_6A", "name":"Estancia I","canonical":"ESTA", "teacher":"Miguel Eduardo Maldonado Melchor", "hours":[26,35,42]}
+        ]
+    },
+    {
+        "quarter": 7,
+        "group": "A",
+        "assignatures": 
+        [
+            {"id":"INGG_7A", "name":"Inglés VII","canonical":"INGG", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"LEAD_7A", "name":"Liderazgo de Equipos de Alto Desempeño","canonical":"LEAD", "teacher":"Janeth Elizabeth Castellanos Pinzón", "hours":[20,37,38]},
+            {"id":"LNAU_7A", "name":"Lenguajes y Autómatas","canonical":"LNAU", "teacher":"Luis Gutiérrez Alfaro", "hours":[1,2,10,11,23]},
+            {"id":"SSOO_7A", "name":"Sistemas Operativos","canonical":"SSOO", "teacher":"José Alonso Macías Montoya", "hours":[21,22,28,29,39]},
+            {"id":"PRCN_7A", "name":"Programación Concurrente","canonical":"PRCN", "teacher":"Elías Beltrán Naturi", "hours":[3,4,12,13,17,25]},
+            {"id":"PRST_7A", "name":"Pruebas de Software","canonical":"PRST", "teacher":"Rocio Crystal Hernández Camacho", "hours":[7,8,14,15,33,34]},
+            {"id":"ESTB_7A", "name":"Estancia II","canonical":"ESTB", "teacher":"Rebeca Countiño Mijangos", "hours":[30,31,35]}
+        ]
+    },
+    {
+        "quarter": 7,
+        "group": "B",
+        "assignatures": 
+        [
+            {"id":"INGG_7B", "name":"Inglés VII","canonical":"INGG", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"LEAD_7B", "name":"Liderazgo de Equipos de Alto Desempeño","canonical":"LEAD", "teacher":"Janeth Elizabeth Castellanos Pinzón", "hours":[19,41,42]},
+            {"id":"LNAU_7B", "name":"Lenguajes y Autómatas","canonical":"LNAU", "teacher":"Luis Gutiérrez Alfaro", "hours":[3,4,14,21,22]},
+            {"id":"SSOO_7B", "name":"Sistemas Operativos","canonical":"SSOO", "teacher":"José Alonso Macías Montoya", "hours":[1,2,23,24,43]},
+            {"id":"PRCN_7B", "name":"Programación Concurrente","canonical":"PRCN", "teacher":"Elías Beltrán Naturi", "hours":[5,6,30,31,39,40]},
+            {"id":"PRST_7B", "name":"Pruebas de Software","canonical":"PRST", "teacher":"Rocio Crystal Hernández Camacho", "hours":[10,11,28,29,37,38]},
+            {"id":"ESTB_7B", "name":"Estancia II","canonical":"ESTB", "teacher":"Miguel Eduardo Maldonado Melchor", "hours":[16,17,25]}
+        ]
+    },
+    {
+        "quarter": 8,
+        "group": "A",
+        "assignatures": 
+        [
+            {"id":"INGH_8A", "name":"Inglés VIII","canonical":"INGH", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"PPMA_8A", "name":"Programación para Móviles","canonical":"PPMA", "teacher":"José Armando Pascacio Glaizar", "hours":[16,17,30,31,32]},
+            {"id":"CMEI_8A", "name":"Compiladores e Intérpretes","canonical":"CMEI", "teacher":"Diana Beatriz Vázquez Cruz", "hours":[3,19,20,28,29]},
+            {"id":"IIAA_8A", "name":"Inteligencia Artificial","canonical":"IIAA", "teacher":"Carlos Alberto Díaz Hernández", "hours":[6,7,8,10,11]},
+            {"id":"ANFN_8A", "name":"Análisis Financiero","canonical":"ANFN", "teacher":"Rocio Crystal Hernández Camacho", "hours":[1,2,12,25,26]},
+            {"id":"MNST_8A", "name":"Mantenimiento de Software","canonical":"MNST", "teacher":"Carlos Alberto Díaz Hernández", "hours":[34,35,38,39,40]},
+            {"id":"MYDD_8A", "name":"Multimedia y Diseño Digital","canonical":"MYDD", "teacher":"Horacio Iran Solís Cisnero", "hours":[4,13,14,41,42]}
+        ]
+    },
+    {
+        "quarter": 8,
+        "group": "B",
+        "assignatures": 
+        [
+            {"id":"INGH_8B", "name":"Inglés VIII","canonical":"INGH", "teacher":"Luis Maria Ventura", "hours":[18,27,36,44,45]},
+            {"id":"PPMA_8B", "name":"Programación para Móviles","canonical":"PPMA", "teacher":"José Armando Pascacio Glaizar", "hours":[10,11,12,33,34]},
+            {"id":"CMEI_8B", "name":"Compiladores e Intérpretes","canonical":"CMEI", "teacher":"Diana Beatriz Vázquez Cruz", "hours":[15,21,22,31,32]},
+            {"id":"IIAA_8B", "name":"Inteligencia Artificial","canonical":"IIAA", "teacher":"Carlos Alberto Díaz Hernández", "hours":[1,2,3,16,17]},
+            {"id":"ANFN_8B", "name":"Análisis Financiero","canonical":"ANFN", "teacher":"Rocio Crystal Hernández Camacho", "hours":[5,6,13,41,42]},
+            {"id":"MNST_8B", "name":"Mantenimiento de Software","canonical":"MNST", "teacher":"Carlos Alberto Díaz Hernández", "hours":[28,29,30,37,43]},
+            {"id":"MYDD_8B", "name":"Multimedia y Diseño Digital","canonical":"MYDD", "teacher":"Horacio Iran Solís Cisnero", "hours":[7,8,38,39,40]}
+        ]
+    }
+]

@@ -4,8 +4,11 @@ import "../assets/styles/main.css";
 import PreferencesContent from "../views/PreferencesContent";
 import CalendarsContent from "../views/CalendarsContent";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <Navbar />
@@ -24,7 +27,14 @@ export default function Home() {
 
         <div className="button-container">
           <button className="main">Generar horario</button>
-          <button className="secondary" id="watch_calendars">
+          <button
+            className="secondary"
+            id="watch_calendars"
+            onClick={() => {
+              navigate("/schedules");
+              scrollTo(0,0)
+            }}
+          >
             Ver materias
           </button>
         </div>

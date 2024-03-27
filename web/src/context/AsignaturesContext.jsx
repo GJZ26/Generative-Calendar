@@ -4,6 +4,14 @@ import asignatures_data from "../assets/data/subjects.json";
 const AsignatureContext = createContext();
 
 const AsignatureProvider = ({ children }) => {
+  asignatures_data.map((quar, index) => {
+    quar.map((assi,subindex) => {
+      if (assi.dependents.length > 0) {
+        assi.status = "unavailable";
+      }
+    });
+  });
+
   const [asignature, setAsignature] = useState(asignatures_data);
 
   return (
