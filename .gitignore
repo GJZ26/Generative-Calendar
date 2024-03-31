@@ -15,6 +15,7 @@
 
 # Python Files
 app/src/__pycache__/
+app/src/libs/__pycache__/
 env/
 
 # Front End

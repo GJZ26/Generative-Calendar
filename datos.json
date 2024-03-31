@@ -1,0 +1,1610 @@
+[
+    {
+        "best_legal": 13,
+        "avarage_legal": 2.6,
+        "worst_legal": 13,
+        "best_ilegal": 24,
+        "avarage_ilegal": 18.0,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 13,
+        "avarage_legal": 2.3636363636363638,
+        "worst_legal": 13,
+        "best_ilegal": 30,
+        "avarage_ilegal": 18.727272727272727,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 17,
+        "avarage_legal": 3.6153846153846154,
+        "worst_legal": 13,
+        "best_ilegal": 24,
+        "avarage_ilegal": 14.384615384615385,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 17,
+        "avarage_legal": 3.375,
+        "worst_legal": 7,
+        "best_ilegal": 24,
+        "avarage_ilegal": 11.375,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 17,
+        "avarage_legal": 3.1739130434782608,
+        "worst_legal": 7,
+        "best_ilegal": 24,
+        "avarage_ilegal": 12.391304347826088,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.357142857142857,
+        "worst_legal": 2,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.535714285714286,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 3.764705882352941,
+        "worst_legal": 2,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.323529411764707,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 3.488888888888889,
+        "worst_legal": 2,
+        "best_ilegal": 28,
+        "avarage_ilegal": 12.955555555555556,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 3.3333333333333335,
+        "worst_legal": 1,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.431372549019608,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 3.909090909090909,
+        "worst_legal": 1,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.327272727272728,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.510204081632653,
+        "worst_legal": 4,
+        "best_ilegal": 31,
+        "avarage_ilegal": 12.142857142857142,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.081632653061225,
+        "worst_legal": 4,
+        "best_ilegal": 31,
+        "avarage_ilegal": 11.36734693877551,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.836734693877551,
+        "worst_legal": 4,
+        "best_ilegal": 31,
+        "avarage_ilegal": 12.061224489795919,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.218181818181818,
+        "worst_legal": 5,
+        "best_ilegal": 30,
+        "avarage_ilegal": 11.818181818181818,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.236363636363636,
+        "worst_legal": 2,
+        "best_ilegal": 31,
+        "avarage_ilegal": 11.945454545454545,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 7.458333333333333,
+        "worst_legal": 2,
+        "best_ilegal": 31,
+        "avarage_ilegal": 9.4375,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.3584905660377355,
+        "worst_legal": 2,
+        "best_ilegal": 31,
+        "avarage_ilegal": 13.433962264150944,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.423728813559322,
+        "worst_legal": 0,
+        "best_ilegal": 31,
+        "avarage_ilegal": 15.186440677966102,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.076923076923077,
+        "worst_legal": 0,
+        "best_ilegal": 31,
+        "avarage_ilegal": 14.615384615384615,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.509803921568627,
+        "worst_legal": 2,
+        "best_ilegal": 31,
+        "avarage_ilegal": 13.215686274509803,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.803921568627451,
+        "worst_legal": 5,
+        "best_ilegal": 31,
+        "avarage_ilegal": 14.333333333333334,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.82,
+        "worst_legal": 4,
+        "best_ilegal": 31,
+        "avarage_ilegal": 13.28,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.625,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.535714285714286,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.907407407407407,
+        "worst_legal": 0,
+        "best_ilegal": 30,
+        "avarage_ilegal": 13.296296296296296,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.471698113207547,
+        "worst_legal": 6,
+        "best_ilegal": 31,
+        "avarage_ilegal": 13.49056603773585,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 7.0576923076923075,
+        "worst_legal": 2,
+        "best_ilegal": 31,
+        "avarage_ilegal": 10.73076923076923,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 7.36,
+        "worst_legal": 3,
+        "best_ilegal": 25,
+        "avarage_ilegal": 9.64,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 6.886363636363637,
+        "worst_legal": 5,
+        "best_ilegal": 25,
+        "avarage_ilegal": 10.727272727272727,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.117647058823529,
+        "worst_legal": 3,
+        "best_ilegal": 26,
+        "avarage_ilegal": 12.470588235294118,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 4.686274509803922,
+        "worst_legal": 3,
+        "best_ilegal": 26,
+        "avarage_ilegal": 12.647058823529411,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 6.224489795918367,
+        "worst_legal": 6,
+        "best_ilegal": 26,
+        "avarage_ilegal": 10.36734693877551,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 6.74,
+        "worst_legal": 3,
+        "best_ilegal": 28,
+        "avarage_ilegal": 10.42,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 7.078431372549019,
+        "worst_legal": 3,
+        "best_ilegal": 28,
+        "avarage_ilegal": 9.176470588235293,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 21,
+        "avarage_legal": 5.8,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 11.10909090909091,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 6.020833333333333,
+        "worst_legal": 7,
+        "best_ilegal": 29,
+        "avarage_ilegal": 11.1875,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 6.918367346938775,
+        "worst_legal": 2,
+        "best_ilegal": 30,
+        "avarage_ilegal": 10.040816326530612,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 6.596153846153846,
+        "worst_legal": 2,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.711538461538462,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 8.423076923076923,
+        "worst_legal": 3,
+        "best_ilegal": 30,
+        "avarage_ilegal": 6.865384615384615,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 8.78,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 6.38,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 7.081632653061225,
+        "worst_legal": 4,
+        "best_ilegal": 30,
+        "avarage_ilegal": 8.653061224489797,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 5.591836734693878,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 10.306122448979592,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 6.375,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.75,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 23,
+        "avarage_legal": 5.732142857142857,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 10.178571428571429,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.245614035087719,
+        "worst_legal": 1,
+        "best_ilegal": 26,
+        "avarage_ilegal": 9.526315789473685,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.4423076923076925,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.01923076923077,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.703703703703703,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.592592592592593,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.142857142857143,
+        "worst_legal": 0,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.83673469387755,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.73469387755102,
+        "worst_legal": 0,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.918367346938776,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.5,
+        "worst_legal": 0,
+        "best_ilegal": 26,
+        "avarage_ilegal": 7.833333333333333,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.716981132075472,
+        "worst_legal": 0,
+        "best_ilegal": 23,
+        "avarage_ilegal": 6.433962264150943,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.32,
+        "worst_legal": 0,
+        "best_ilegal": 26,
+        "avarage_ilegal": 8.06,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.74,
+        "worst_legal": 0,
+        "best_ilegal": 26,
+        "avarage_ilegal": 7.22,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.294117647058823,
+        "worst_legal": 0,
+        "best_ilegal": 24,
+        "avarage_ilegal": 7.764705882352941,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.875,
+        "worst_legal": 0,
+        "best_ilegal": 24,
+        "avarage_ilegal": 9.410714285714286,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.588235294117647,
+        "worst_legal": 0,
+        "best_ilegal": 27,
+        "avarage_ilegal": 8.92156862745098,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.137254901960785,
+        "worst_legal": 0,
+        "best_ilegal": 23,
+        "avarage_ilegal": 7.568627450980392,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.183673469387755,
+        "worst_legal": 0,
+        "best_ilegal": 27,
+        "avarage_ilegal": 8.714285714285714,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.0212765957446805,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 9.574468085106384,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.98,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.66,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.527272727272727,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 8.527272727272727,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.518518518518518,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 10.296296296296296,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.040816326530612,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 11.63265306122449,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.155172413793103,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 11.551724137931034,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.849056603773585,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 9.018867924528301,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.0,
+        "worst_legal": 3,
+        "best_ilegal": 27,
+        "avarage_ilegal": 7.764705882352941,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.0,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 9.203703703703704,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.568627450980392,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 12.156862745098039,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.5576923076923075,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 11.846153846153847,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.381818181818182,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 12.818181818181818,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.576923076923077,
+        "worst_legal": 4,
+        "best_ilegal": 30,
+        "avarage_ilegal": 12.076923076923077,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.944444444444445,
+        "worst_legal": 5,
+        "best_ilegal": 30,
+        "avarage_ilegal": 12.24074074074074,
+        "worst_ilegal": 2
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.964285714285714,
+        "worst_legal": 5,
+        "best_ilegal": 30,
+        "avarage_ilegal": 12.446428571428571,
+        "worst_ilegal": 2
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.6923076923076925,
+        "worst_legal": 5,
+        "best_ilegal": 26,
+        "avarage_ilegal": 11.788461538461538,
+        "worst_ilegal": 2
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.672727272727273,
+        "worst_legal": 5,
+        "best_ilegal": 26,
+        "avarage_ilegal": 11.090909090909092,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.8,
+        "worst_legal": 4,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.36,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.228070175438597,
+        "worst_legal": 10,
+        "best_ilegal": 31,
+        "avarage_ilegal": 12.947368421052632,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.2075471698113205,
+        "worst_legal": 9,
+        "best_ilegal": 31,
+        "avarage_ilegal": 12.320754716981131,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.03921568627451,
+        "worst_legal": 9,
+        "best_ilegal": 28,
+        "avarage_ilegal": 12.92156862745098,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.595744680851064,
+        "worst_legal": 5,
+        "best_ilegal": 28,
+        "avarage_ilegal": 11.404255319148936,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.072727272727272,
+        "worst_legal": 4,
+        "best_ilegal": 28,
+        "avarage_ilegal": 10.49090909090909,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.303571428571429,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.410714285714286,
+        "worst_ilegal": 11
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.78,
+        "worst_legal": 0,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.38,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.0,
+        "worst_legal": 0,
+        "best_ilegal": 31,
+        "avarage_ilegal": 8.666666666666666,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.980769230769231,
+        "worst_legal": 1,
+        "best_ilegal": 31,
+        "avarage_ilegal": 10.423076923076923,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.113207547169812,
+        "worst_legal": 1,
+        "best_ilegal": 31,
+        "avarage_ilegal": 10.79245283018868,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.943396226415095,
+        "worst_legal": 1,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.264150943396226,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.553571428571429,
+        "worst_legal": 1,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.160714285714286,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.684210526315789,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.771929824561403,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.48,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.72,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.54,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.08,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.823529411764706,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.607843137254902,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.208333333333334,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.833333333333333,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.96078431372549,
+        "worst_legal": 4,
+        "best_ilegal": 31,
+        "avarage_ilegal": 7.8431372549019605,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.98,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 6.44,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.622641509433962,
+        "worst_legal": 2,
+        "best_ilegal": 25,
+        "avarage_ilegal": 7.981132075471698,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.038461538461538,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 8.51923076923077,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.607843137254902,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 8.098039215686274,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.509803921568627,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 8.72549019607843,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.28,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 6.88,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.9361702127659575,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 6.276595744680851,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.142857142857143,
+        "worst_legal": 1,
+        "best_ilegal": 25,
+        "avarage_ilegal": 6.163265306122449,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.857142857142857,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 6.285714285714286,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.1,
+        "worst_legal": 3,
+        "best_ilegal": 25,
+        "avarage_ilegal": 6.34,
+        "worst_ilegal": 3
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.25,
+        "worst_legal": 3,
+        "best_ilegal": 25,
+        "avarage_ilegal": 7.865384615384615,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.978260869565218,
+        "worst_legal": 3,
+        "best_ilegal": 26,
+        "avarage_ilegal": 9.173913043478262,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.918367346938775,
+        "worst_legal": 3,
+        "best_ilegal": 26,
+        "avarage_ilegal": 7.0,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.9411764705882355,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.372549019607843,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.519230769230769,
+        "worst_legal": 3,
+        "best_ilegal": 28,
+        "avarage_ilegal": 6.8076923076923075,
+        "worst_ilegal": 2
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.791666666666667,
+        "worst_legal": 3,
+        "best_ilegal": 23,
+        "avarage_ilegal": 7.020833333333333,
+        "worst_ilegal": 2
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.836363636363636,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 8.672727272727272,
+        "worst_ilegal": 2
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.829787234042553,
+        "worst_legal": 0,
+        "best_ilegal": 23,
+        "avarage_ilegal": 7.191489361702128,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.1454545454545455,
+        "worst_legal": 0,
+        "best_ilegal": 23,
+        "avarage_ilegal": 7.527272727272727,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.788461538461538,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.846153846153846,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.648148148148148,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.444444444444445,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.9375,
+        "worst_legal": 0,
+        "best_ilegal": 29,
+        "avarage_ilegal": 6.9375,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.890909090909091,
+        "worst_legal": 0,
+        "best_ilegal": 29,
+        "avarage_ilegal": 5.672727272727273,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.425925925925926,
+        "worst_legal": 0,
+        "best_ilegal": 30,
+        "avarage_ilegal": 4.87037037037037,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.948275862068965,
+        "worst_legal": 0,
+        "best_ilegal": 22,
+        "avarage_ilegal": 5.051724137931035,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 9.46,
+        "worst_legal": 0,
+        "best_ilegal": 22,
+        "avarage_ilegal": 5.44,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.909090909090909,
+        "worst_legal": 3,
+        "best_ilegal": 24,
+        "avarage_ilegal": 7.472727272727273,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.224489795918367,
+        "worst_legal": 6,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.755102040816327,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.44,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 10.84,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.0638297872340425,
+        "worst_legal": 4,
+        "best_ilegal": 23,
+        "avarage_ilegal": 9.404255319148936,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.019607843137255,
+        "worst_legal": 0,
+        "best_ilegal": 25,
+        "avarage_ilegal": 9.176470588235293,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.339622641509434,
+        "worst_legal": 0,
+        "best_ilegal": 27,
+        "avarage_ilegal": 8.320754716981131,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.5,
+        "worst_legal": 0,
+        "best_ilegal": 27,
+        "avarage_ilegal": 8.0,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 9.0,
+        "worst_legal": 4,
+        "best_ilegal": 25,
+        "avarage_ilegal": 6.019230769230769,
+        "worst_ilegal": 11
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.18,
+        "worst_legal": 0,
+        "best_ilegal": 28,
+        "avarage_ilegal": 7.8,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.232142857142857,
+        "worst_legal": 0,
+        "best_ilegal": 28,
+        "avarage_ilegal": 7.232142857142857,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.7,
+        "worst_legal": 0,
+        "best_ilegal": 23,
+        "avarage_ilegal": 5.8,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 9.464285714285714,
+        "worst_legal": 4,
+        "best_ilegal": 23,
+        "avarage_ilegal": 5.678571428571429,
+        "worst_ilegal": 4
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 9.107142857142858,
+        "worst_legal": 4,
+        "best_ilegal": 24,
+        "avarage_ilegal": 6.464285714285714,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 9.60344827586207,
+        "worst_legal": 5,
+        "best_ilegal": 32,
+        "avarage_ilegal": 6.689655172413793,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 10.285714285714286,
+        "worst_legal": 3,
+        "best_ilegal": 24,
+        "avarage_ilegal": 5.469387755102041,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.415094339622641,
+        "worst_legal": 3,
+        "best_ilegal": 24,
+        "avarage_ilegal": 6.962264150943396,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 8.037735849056604,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 7.716981132075472,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.627450980392157,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.372549019607844,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.203703703703703,
+        "worst_legal": 3,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.648148148148149,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.086956521739131,
+        "worst_legal": 6,
+        "best_ilegal": 29,
+        "avarage_ilegal": 11.0,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 4.907407407407407,
+        "worst_legal": 6,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.222222222222221,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.574074074074074,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.722222222222221,
+        "worst_ilegal": 6
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.5,
+        "worst_legal": 6,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.82,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.0,
+        "worst_legal": 6,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.74074074074074,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.732142857142857,
+        "worst_legal": 11,
+        "best_ilegal": 29,
+        "avarage_ilegal": 13.160714285714286,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.7272727272727275,
+        "worst_legal": 4,
+        "best_ilegal": 32,
+        "avarage_ilegal": 13.163636363636364,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 5.938775510204081,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 13.061224489795919,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 6.042553191489362,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.361702127659575,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.137254901960785,
+        "worst_legal": 1,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.568627450980392,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.291666666666667,
+        "worst_legal": 1,
+        "best_ilegal": 32,
+        "avarage_ilegal": 9.583333333333334,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.62962962962963,
+        "worst_legal": 1,
+        "best_ilegal": 32,
+        "avarage_ilegal": 9.203703703703704,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 9.1,
+        "worst_legal": 2,
+        "best_ilegal": 32,
+        "avarage_ilegal": 8.96,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.622641509433962,
+        "worst_legal": 2,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.981132075471699,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.865384615384615,
+        "worst_legal": 6,
+        "best_ilegal": 32,
+        "avarage_ilegal": 12.326923076923077,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 27,
+        "avarage_legal": 7.6909090909090905,
+        "worst_legal": 8,
+        "best_ilegal": 32,
+        "avarage_ilegal": 12.727272727272727,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.4,
+        "worst_legal": 9,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.9,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 5.618181818181818,
+        "worst_legal": 9,
+        "best_ilegal": 31,
+        "avarage_ilegal": 14.4,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.320754716981132,
+        "worst_legal": 9,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.528301886792454,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 5.872340425531915,
+        "worst_legal": 9,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.914893617021276,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 5.6415094339622645,
+        "worst_legal": 9,
+        "best_ilegal": 28,
+        "avarage_ilegal": 14.075471698113208,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 4.981481481481482,
+        "worst_legal": 4,
+        "best_ilegal": 28,
+        "avarage_ilegal": 13.61111111111111,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 4.980392156862745,
+        "worst_legal": 10,
+        "best_ilegal": 27,
+        "avarage_ilegal": 14.156862745098039,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.173913043478261,
+        "worst_legal": 9,
+        "best_ilegal": 27,
+        "avarage_ilegal": 13.217391304347826,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 5.962264150943396,
+        "worst_legal": 2,
+        "best_ilegal": 28,
+        "avarage_ilegal": 12.830188679245284,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.150943396226415,
+        "worst_legal": 8,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.150943396226415,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.76,
+        "worst_legal": 8,
+        "best_ilegal": 28,
+        "avarage_ilegal": 10.16,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.296296296296296,
+        "worst_legal": 8,
+        "best_ilegal": 28,
+        "avarage_ilegal": 10.851851851851851,
+        "worst_ilegal": 11
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 9.23076923076923,
+        "worst_legal": 5,
+        "best_ilegal": 27,
+        "avarage_ilegal": 9.846153846153847,
+        "worst_ilegal": 11
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.425925925925926,
+        "worst_legal": 1,
+        "best_ilegal": 31,
+        "avarage_ilegal": 9.722222222222221,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.43859649122807,
+        "worst_legal": 1,
+        "best_ilegal": 29,
+        "avarage_ilegal": 9.947368421052632,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.471698113207546,
+        "worst_legal": 4,
+        "best_ilegal": 26,
+        "avarage_ilegal": 9.622641509433961,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 9.666666666666666,
+        "worst_legal": 4,
+        "best_ilegal": 26,
+        "avarage_ilegal": 8.222222222222221,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 9.34,
+        "worst_legal": 4,
+        "best_ilegal": 28,
+        "avarage_ilegal": 8.94,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.576923076923077,
+        "worst_legal": 0,
+        "best_ilegal": 28,
+        "avarage_ilegal": 10.057692307692308,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.8125,
+        "worst_legal": 6,
+        "best_ilegal": 28,
+        "avarage_ilegal": 11.458333333333334,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.104166666666666,
+        "worst_legal": 6,
+        "best_ilegal": 28,
+        "avarage_ilegal": 10.229166666666666,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.961538461538462,
+        "worst_legal": 5,
+        "best_ilegal": 28,
+        "avarage_ilegal": 9.307692307692308,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.26923076923077,
+        "worst_legal": 5,
+        "best_ilegal": 29,
+        "avarage_ilegal": 10.673076923076923,
+        "worst_ilegal": 14
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.28,
+        "worst_legal": 4,
+        "best_ilegal": 28,
+        "avarage_ilegal": 9.72,
+        "worst_ilegal": 14
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.529411764705882,
+        "worst_legal": 4,
+        "best_ilegal": 28,
+        "avarage_ilegal": 8.882352941176471,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.627450980392156,
+        "worst_legal": 8,
+        "best_ilegal": 28,
+        "avarage_ilegal": 9.294117647058824,
+        "worst_ilegal": 10
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.88679245283019,
+        "worst_legal": 8,
+        "best_ilegal": 26,
+        "avarage_ilegal": 9.11320754716981,
+        "worst_ilegal": 14
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.479166666666666,
+        "worst_legal": 4,
+        "best_ilegal": 27,
+        "avarage_ilegal": 9.270833333333334,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 10.125,
+        "worst_legal": 4,
+        "best_ilegal": 26,
+        "avarage_ilegal": 6.75,
+        "worst_ilegal": 9
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 9.31578947368421,
+        "worst_legal": 10,
+        "best_ilegal": 30,
+        "avarage_ilegal": 7.912280701754386,
+        "worst_ilegal": 11
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 10.0,
+        "worst_legal": 0,
+        "best_ilegal": 23,
+        "avarage_ilegal": 6.551020408163265,
+        "worst_ilegal": 11
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 9.84,
+        "worst_legal": 0,
+        "best_ilegal": 28,
+        "avarage_ilegal": 7.1,
+        "worst_ilegal": 14
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.23076923076923,
+        "worst_legal": 0,
+        "best_ilegal": 30,
+        "avarage_ilegal": 9.903846153846153,
+        "worst_ilegal": 14
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.2592592592592595,
+        "worst_legal": 0,
+        "best_ilegal": 26,
+        "avarage_ilegal": 11.074074074074074,
+        "worst_ilegal": 14
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.285714285714286,
+        "worst_legal": 4,
+        "best_ilegal": 29,
+        "avarage_ilegal": 12.63265306122449,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.8076923076923075,
+        "worst_legal": 1,
+        "best_ilegal": 31,
+        "avarage_ilegal": 11.711538461538462,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.345454545454546,
+        "worst_legal": 1,
+        "best_ilegal": 31,
+        "avarage_ilegal": 8.836363636363636,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.777777777777778,
+        "worst_legal": 1,
+        "best_ilegal": 31,
+        "avarage_ilegal": 9.11111111111111,
+        "worst_ilegal": 5
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.3584905660377355,
+        "worst_legal": 0,
+        "best_ilegal": 31,
+        "avarage_ilegal": 11.245283018867925,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.454545454545454,
+        "worst_legal": 0,
+        "best_ilegal": 31,
+        "avarage_ilegal": 10.563636363636364,
+        "worst_ilegal": 7
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.0638297872340425,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.340425531914894,
+        "worst_ilegal": 13
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.769230769230769,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.557692307692308,
+        "worst_ilegal": 12
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.381818181818182,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 9.945454545454545,
+        "worst_ilegal": 15
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 6.581818181818182,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 11.145454545454545,
+        "worst_ilegal": 8
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 7.148148148148148,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.833333333333334,
+        "worst_ilegal": 15
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.520833333333334,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 10.541666666666666,
+        "worst_ilegal": 15
+    },
+    {
+        "best_legal": 28,
+        "avarage_legal": 8.944444444444445,
+        "worst_legal": 0,
+        "best_ilegal": 32,
+        "avarage_ilegal": 9.962962962962964,
+        "worst_ilegal": 14
+    }
+]

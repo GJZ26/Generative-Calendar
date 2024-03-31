@@ -1,11 +1,33 @@
-import renderTableContent from '../utils/ScheduleUtils.jsx'
+import renderTableContent from "../utils/ScheduleUtils.jsx";
 
-export default function Schedule({ data }) {
+export default function Schedule({ data, isDinamic = false }) {
+  if (!isDinamic) {
+    return (
+      <table border={1} cellSpacing={0}>
+        <thead>
+          <tr>
+            <th>{`${data.quarter}°${data.group}`}</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+          </tr>
+        </thead>
+        <tbody>{renderTableContent(data.assignatures)}</tbody>
+      </table>
+    );
+  }
+
   return (
-    <table border={1} cellSpacing={0}>
+    <table
+      border={1}
+      cellSpacing={0}
+      className={data.length > 0 ? "" : "holding"}
+    >
       <thead>
         <tr>
-          <th>{`${data.quarter}°${data.group}`}</th>
+          <th></th>
           <th>Lunes</th>
           <th>Martes</th>
           <th>Miércoles</th>
@@ -13,7 +35,7 @@ export default function Schedule({ data }) {
           <th>Viernes</th>
         </tr>
       </thead>
-      <tbody>{renderTableContent(data.assignatures)}</tbody>
+      <tbody>{renderTableContent(data)}</tbody>
     </table>
   );
 }

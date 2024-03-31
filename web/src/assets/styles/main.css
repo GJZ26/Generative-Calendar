@@ -311,11 +311,13 @@ table th {
     padding: 10px 0px;
 }
 
-table tbody tr td, table thead tr td {
+table tbody tr td,
+table thead tr td {
     width: 150px !important;
     max-width: 100px;
     padding: 8px 12px;
 }
+
 tbody tr span {
     display: block;
     text-align: center;
@@ -342,17 +344,68 @@ td.time-col {
     font-weight: 500;
 }
 
-table td:not(:empty):not(.time-col){
+table td:not(:empty):not(.time-col) {
     background-color: var(--super-super-text-color);
 }
 
-button.floating{
+button.floating {
     position: sticky;
     top: 23px;
     right: 0;
     left: 98vw;
     bottom: 10px;
 }
+
+table.holding tbody tr td:not(:first-child) {
+    animation: skeletonback 2s ease infinite;
+
+}
+
+div.schedule-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+div.schedule-result div.aditional-text{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 16px;
+    font-size: 1.5rem;
+}
+
+@keyframes skeletonback {
+    0% {
+        filter:opacity(1);
+        /* background: rgb(244, 244, 244); */
+    }
+    
+    25% {
+        filter:opacity(0.3);
+
+        /* background: #ececec; */
+    }
+    
+    50% {
+        filter:opacity(0.1);
+        /* background-color: rgb(218, 218, 218); */
+    }
+
+    75% {
+        filter:opacity(0.3);
+        /* background: #ececec; */
+
+    }
+
+    100% {
+        filter:opacity(1)
+        /* background: rgb(244, 244, 244); */
+    }
+}
+
 
 @keyframes sudenlyAppear {
     0% {

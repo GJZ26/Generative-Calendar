@@ -9,7 +9,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 8
         },
         {
             "id": "QUIMB",
@@ -18,7 +19,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "ALGL",
@@ -27,7 +29,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "FNCM",
@@ -36,7 +39,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "ALGM",
@@ -48,7 +52,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 15
         },
         {
             "id": "MATD",
@@ -59,7 +64,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "EOEA",
@@ -70,7 +76,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         }
     ],
     [
@@ -85,7 +92,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 7
         },
         {
             "id": "DHYV",
@@ -96,7 +104,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "CALD",
@@ -107,7 +116,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 3
         },
         {
             "id": "POAO",
@@ -120,7 +130,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 12
         },
         {
             "id": "ESDD",
@@ -133,7 +144,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "ISAC",
@@ -142,7 +154,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "PDDS",
@@ -153,7 +166,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 7
         }
     ],
     [
@@ -168,7 +182,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 6
         },
         {
             "id": "INEC",
@@ -179,7 +194,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "CALI",
@@ -192,7 +208,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 2
         },
         {
             "id": "PRVS",
@@ -205,7 +222,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 11
         },
         {
             "id": "ESDA",
@@ -216,7 +234,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "FDBS",
@@ -227,7 +246,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 2
         },
         {
             "id": "IRDS",
@@ -240,7 +260,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 6
         }
     ],
     [
@@ -255,7 +276,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 5
         },
         {
             "id": "HCYC",
@@ -264,7 +286,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "MPIA",
@@ -277,7 +300,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "PRWB",
@@ -291,7 +315,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 10
         },
         {
             "id": "DSDI",
@@ -302,7 +327,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "BBDD",
@@ -315,7 +341,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "ELYM",
@@ -326,7 +353,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 2
         }
     ],
     [
@@ -341,7 +369,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 4
         },
         {
             "id": "ETPR",
@@ -350,7 +379,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "MPIB",
@@ -361,7 +391,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "PRCS",
@@ -375,7 +406,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 7
         },
         {
             "id": "FDRD",
@@ -384,7 +416,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "ARQS",
@@ -397,7 +430,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 5
         },
         {
             "id": "SSDD",
@@ -410,7 +444,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         }
     ],
     [
@@ -425,7 +460,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 3
         },
         {
             "id": "HBGR",
@@ -434,7 +470,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "PYES",
@@ -445,7 +482,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "ARQC",
@@ -456,7 +494,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "RRDD",
@@ -467,7 +506,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 2
         },
         {
             "id": "CLDS",
@@ -480,7 +520,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 4
         },
         {
             "id": "ESTA",
@@ -493,7 +534,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         }
     ],
     [
@@ -508,7 +550,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 2
         },
         {
             "id": "LEAD",
@@ -517,7 +560,8 @@
             "dependents": [],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "LNAU",
@@ -530,7 +574,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "SSOO",
@@ -543,7 +588,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "PRCN",
@@ -557,7 +603,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 4
         },
         {
             "id": "PRST",
@@ -571,7 +618,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 3
         },
         {
             "id": "ESTB",
@@ -582,7 +630,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         }
     ],
     [
@@ -597,7 +646,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "PPMA",
@@ -611,7 +661,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 2
         },
         {
             "id": "CMEI",
@@ -622,7 +673,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "IIAA",
@@ -634,7 +686,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "ANFN",
@@ -647,7 +700,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 1
         },
         {
             "id": "MNST",
@@ -658,7 +712,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "MYDD",
@@ -669,7 +724,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         }
     ],
     [
@@ -682,7 +738,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "PPMB",
@@ -693,7 +750,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "SSDI",
@@ -704,7 +762,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "MNDD",
@@ -715,7 +774,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "ADPS",
@@ -726,7 +786,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "AROS",
@@ -738,7 +799,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         },
         {
             "id": "EOEB",
@@ -749,7 +811,8 @@
             ],
             "stress": 0.25,
             "status": "not-cursed",
-            "has_changed": false
+            "has_changed": false,
+            "weight": 0
         }
     ]
 ]

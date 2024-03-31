@@ -5,9 +5,11 @@ import PreferencesContent from "../views/PreferencesContent";
 import CalendarsContent from "../views/CalendarsContent";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
+import { usePreferences } from "../context/PreferencesContext";
 
 export default function Home() {
   const navigate = useNavigate();
+  const { preferences, setPreferences } = usePreferences();
 
   return (
     <>
@@ -26,13 +28,22 @@ export default function Home() {
         />
 
         <div className="button-container">
-          <button className="main">Generar horario</button>
+          <button
+            className="main"
+            onClick={() => {
+              preferences["actioned"] = true;
+              setPreferences(preferences);
+              navigate("/result");
+              scrollTo(0, 0);
+            }}
+          >
+            Generar horario
+          </button>
           <button
             className="secondary"
-            id="watch_calendars"
             onClick={() => {
               navigate("/schedules");
-              scrollTo(0,0)
+              scrollTo(0, 0);
             }}
           >
             Ver materias

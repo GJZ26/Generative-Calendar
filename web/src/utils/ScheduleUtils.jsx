@@ -9,7 +9,7 @@ const cellColors = [
   "#fff8d8",
   "#ffdab2",
   "#ffcccc",
-]
+];
 
 export default function renderTableContent(data) {
   const column = [];
@@ -65,7 +65,22 @@ export default function renderTableContent(data) {
           </td>
         );
       } else {
-        row.push(<td key={rowCount}></td>);
+        row.push(
+          <td
+            key={rowCount}
+            style={
+              data.length > 0
+                ? undefined
+                : {
+                    animationDelay: `${(i + j) * 90}ms`,
+                    backgroundColor:
+                      cellColors[
+                        randomIntFromInterval(0, cellColors.length - 1)
+                      ],
+                  }
+            }
+          ></td>
+        );
       }
     }
 
@@ -73,4 +88,8 @@ export default function renderTableContent(data) {
   }
 
   return column;
+}
+
+function randomIntFromInterval(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
