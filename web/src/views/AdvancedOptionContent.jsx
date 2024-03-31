@@ -105,11 +105,18 @@ export default function AdvancedOptionContent() {
             id="bit_size"
             value={bitSize}
             onChange={(e) =>
-              setBitSize(parseInt(e.target.value ? e.target.value : 0))
+              setBitSize(parseFloat(e.target.value ? e.target.value : 0))
             }
-            min="1"
-            max="12"
-            step="1"
+            onBlur={(e) => {
+              setBitSize(
+                parseFloat(
+                  parseFloat(e.target.value ? e.target.value : 0).toFixed(2)
+                )
+              );
+            }}
+            min="0"
+            max="1"
+            step="0.01"
           />
         </label>
 

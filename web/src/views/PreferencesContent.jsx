@@ -27,54 +27,6 @@ export default function PreferencesContent() {
   return (
     <>
       <HorizontalContainer>
-        {/* <div className="stress">
-          <span className="as-label">Nivel de estrés</span>
-
-          <label className="as-input">
-            Cualquiera
-            <input
-              type="radio"
-              name="stress"
-              value="any"
-              checked={stress === "any"}
-              onChange={handleStressChange}
-            />
-          </label>
-
-          <label className="as-input">
-            Bajo
-            <input
-              type="radio"
-              name="stress"
-              value="low"
-              checked={stress === "low"}
-              onChange={handleStressChange}
-            />
-          </label>
-
-          <label className="as-input">
-            Normal
-            <input
-              type="radio"
-              name="stress"
-              value="normal"
-              checked={stress === "normal"}
-              onChange={handleStressChange}
-            />
-          </label>
-
-          <label className="as-input">
-            Alto
-            <input
-              type="radio"
-              name="stress"
-              value="high"
-              checked={stress === "high"}
-              onChange={handleStressChange}
-            />
-          </label>
-        </div> */}
-
         <label>
           Cuatrimestre entrante
           <select

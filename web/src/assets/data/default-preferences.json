@@ -4,7 +4,7 @@
     "generations": 100,
     "initial_population": 10,
     "maximum_population": 40,
-    "bit_size": 7,
+    "bit_size": 0.5,
     "mutation_gen": 0.5,
     "mutation_individual": 0.3,
     "initial_resolution": 0.25,

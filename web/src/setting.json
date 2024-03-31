@@ -1,0 +1,5 @@
+{
+    "protocol":"http",
+    "host":"host.docker.internal",
+    "port":"8080"
+}

@@ -9,6 +9,7 @@ import axios from "axios";
 import ScheduleResultContainer from "../layouts/ScheduleResultContainer";
 import AditionalTextContainer from "../layouts/AditionalTextContainer";
 import AditionalData from "../components/AditionalData";
+import opt from '../setting.json'
 
 export default function ScheduleGenerated() {
   const { asignature, setAsignature } = useAsignature();
@@ -90,7 +91,7 @@ function renderCalendar(data_to_send, set_purged, preferences, navto) {
 
   // Petición al servidor
   axios
-    .post("http://host.docker.internal:8080/make", {
+    .post(`${opt.protocol}://${opt.host}:${opt.port}/make`, {
       preferences: preferences,
       assignatures: data_to_send,
     })
