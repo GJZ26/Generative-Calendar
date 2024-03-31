@@ -90,7 +90,7 @@ function renderCalendar(data_to_send, set_purged, preferences, navto) {
 
   // Petición al servidor
   axios
-    .post("http://127.0.0.1:5000/make", {
+    .post("http://host.docker.internal:8080/make", {
       preferences: preferences,
       assignatures: data_to_send,
     })

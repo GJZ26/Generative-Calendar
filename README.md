@@ -10,16 +10,10 @@ La siguiente ilustración muestra el funcionamiento general del algoritmo genét
 Puedes leer de forma más detallada el funcionamiento de este algoritmo en el [reporte](./docs/main.pdf) del proyecto.
 
 ## Instalación 
+Desde la carpeta raíz del proyecto, donde se encuentra este documento, ejecute:
+
 ```bash
-# Crea un entorno virtual
-python -m venv tutorial-env
-
-# Habilita el entrono virtual (windows)
-env\Scripts\activate
-
-# Instala las dependencias necesarias
-pip install -r requirements.txt
-
-# Ejecute el programa
-python -m flask --app src/app run
+docker-compose up --build
 ```
+
+Debes tener instala docker y docker compose con anterioridad para que funcione.

@@ -1,6 +1,6 @@
 from pprint import pp
 from random import randrange, uniform, sample
-from libs.Individual import Individual
+from src.libs.Individual import Individual
 
 
 class GenAlg:
@@ -52,6 +52,11 @@ class GenAlg:
 
     def save_stats(self, gen):
 
+        if(self.global_best_legal["value"] is None):
+            self.global_best_legal["value"] = gen["stats"]["best_legal"]
+        if(self.global_worst_legal["value"] is None):
+            self.global_worst_legal["value"] = gen["stats"]["worst_legal"]
+            
         # NO MOVER EL ORDEN DE ESTAS DOS LINEAS
         self.global_best_legal["seed"] = (
             gen["log"][0]["seed"]
@@ -88,8 +93,8 @@ class GenAlg:
         current_generation = first_gen
         self.stats = []
 
-        self.global_best_legal = {"value": -1, "seed": None}
-        self.global_worst_legal = {"value": 999, "seed": None}
+        self.global_best_legal = {"value": None, "seed": None}
+        self.global_worst_legal = {"value": None, "seed": None}
 
         self.save_stats(current_generation)
 

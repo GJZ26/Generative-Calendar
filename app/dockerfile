@@ -1,0 +1,16 @@
+# Use a Python base image
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY . .
+
+RUN python -m venv venv && \
+    . venv/bin/activate && \
+    pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+EXPOSE 8080
+
+# Define the command to start the application
+CMD ["venv/bin/waitress-serve", "--listen=*:8080", "src.app:app"]

@@ -129,7 +129,7 @@ export default function AditionalData({ data }) {
           <strong>Semilla</strong>: {data.general.seed}
         </span>
         <span>
-          <strong>Base Aritmética(semilla)</strong>: {data.general.seed_base}
+          <strong>Base Aritmética(semilla)</strong>: {data.general.seed_base + 1}
         </span>
         <span>
           <strong>Longitud de semilla</strong>: {data.general.seed_size}

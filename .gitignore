@@ -17,6 +17,8 @@
 app/src/__pycache__/
 app/src/libs/__pycache__/
 env/
+app/env/
+
 
 # Front End
 # Logs
