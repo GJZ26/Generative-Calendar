@@ -11,7 +11,7 @@ const cellColors = [
   "#ffcccc",
 ];
 
-export default function renderTableContent(data) {
+export default function renderTableContent(data, is_dinamic) {
   const column = [];
   let currentIndexColor = 0;
   let map_color = {};
@@ -61,10 +61,14 @@ export default function renderTableContent(data) {
               backgroundColor: map_color[dataOrderedByHour[rowCount]["id"]],
             }}
           >
-            <span className="grade">
-              {dataOrderedByHour[rowCount]["quarter"]}°
-              {dataOrderedByHour[rowCount]["group"]}
-            </span>
+            {is_dinamic ? (
+              <span className="grade">
+                {dataOrderedByHour[rowCount]["quarter"]}°
+                {dataOrderedByHour[rowCount]["group"]}
+              </span>
+            ) : (
+              <></>
+            )}
             <span>{dataOrderedByHour[rowCount]["name"]}</span>
             <span className="teacher-name">
               {dataOrderedByHour[rowCount]["teacher"]}
@@ -75,6 +79,7 @@ export default function renderTableContent(data) {
         row.push(
           <td
             key={rowCount}
+            className={is_dinamic ? "" : "re"}
             style={
               data.length > 0
                 ? undefined

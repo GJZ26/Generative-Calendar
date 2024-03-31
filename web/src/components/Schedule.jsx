@@ -14,7 +14,7 @@ export default function Schedule({ data, isDinamic = false }) {
             <th>Viernes</th>
           </tr>
         </thead>
-        <tbody>{renderTableContent(data.assignatures)}</tbody>
+        <tbody>{renderTableContent(data.assignatures, isDinamic)}</tbody>
       </table>
     );
   }
@@ -35,7 +35,7 @@ export default function Schedule({ data, isDinamic = false }) {
           <th>Viernes</th>
         </tr>
       </thead>
-      <tbody>{renderTableContent(data)}</tbody>
+      <tbody>{renderTableContent(data, isDinamic)}</tbody>
     </table>
   );
 }

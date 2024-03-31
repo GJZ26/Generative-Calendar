@@ -407,6 +407,10 @@ div.schedule-result td:not(.al):not(:first-child) {
     height: 56.4px;
 }
 
+td.re {
+    height: 45.6px;
+}
+
 @keyframes skeletonback {
     0% {
         filter: opacity(1);
