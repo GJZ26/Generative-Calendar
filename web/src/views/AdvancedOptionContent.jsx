@@ -162,7 +162,7 @@ export default function AdvancedOptionContent() {
         </label>
       </ChildContainer>
 
-      <ChildContainer>
+      {/* <ChildContainer>
         <label>
           Resolución Inicial
           <input
@@ -186,7 +186,7 @@ export default function AdvancedOptionContent() {
             step="0.01"
           />
         </label>
-      </ChildContainer>
+      </ChildContainer> */}
     </CustomContainer>
   );
 }

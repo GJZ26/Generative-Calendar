@@ -315,8 +315,9 @@ table tbody tr td,
 table thead tr td {
     width: 150px !important;
     max-width: 100px;
-    padding: 8px 12px;
+    padding: 4px 10px;
 }
+
 
 tbody tr span {
     display: block;
@@ -361,48 +362,77 @@ table.holding tbody tr td:not(:first-child) {
 
 }
 
-div.schedule-result{
+div.schedule-result {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
 }
 
-div.schedule-result div.aditional-text{
+div.schedule-result div.aditional-text {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 16px;
     font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.more {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 15px;
+    color: var(--accent-text-color);
+    font-size: 1.3rem;
+}
+
+div.more span strong{
+    font-weight: 600;
+}
+
+div.schedule-result div.aditional-text span:last-child {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+div.schedule-result span.grade {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent-text-color);
+}
+
+div.schedule-result td:not(.al):not(:first-child) {
+    height: 56.4px;
 }
 
 @keyframes skeletonback {
     0% {
-        filter:opacity(1);
+        filter: opacity(1);
         /* background: rgb(244, 244, 244); */
     }
-    
+
     25% {
-        filter:opacity(0.3);
+        filter: opacity(0.3);
 
         /* background: #ececec; */
     }
-    
+
     50% {
-        filter:opacity(0.1);
+        filter: opacity(0.1);
         /* background-color: rgb(218, 218, 218); */
     }
 
     75% {
-        filter:opacity(0.3);
+        filter: opacity(0.3);
         /* background: #ececec; */
 
     }
 
     100% {
-        filter:opacity(1)
-        /* background: rgb(244, 244, 244); */
+        filter: opacity(1)
+            /* background: rgb(244, 244, 244); */
     }
 }
 

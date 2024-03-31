@@ -24,7 +24,7 @@ class Individual:
             temp_entity["weight"] = (
                 temp_entity["weight"]
                 + 1
-                + abs(int(temp_entity["quarter"] - int(quarter)))
+                + (abs(int(temp_entity["quarter"] - int(quarter))) if int(quarter) > int(temp_entity["quarter"]) else 0)
             )
             if schedule["canonical"] not in result:
                 result[schedule["canonical"]] = [temp_entity]

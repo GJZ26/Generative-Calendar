@@ -8,6 +8,7 @@ import Schedule from "../components/Schedule";
 import axios from "axios";
 import ScheduleResultContainer from "../layouts/ScheduleResultContainer";
 import AditionalTextContainer from "../layouts/AditionalTextContainer";
+import AditionalData from "../components/AditionalData";
 
 export default function ScheduleGenerated() {
   const { asignature, setAsignature } = useAsignature();
@@ -48,11 +49,29 @@ function renderCalendar(data_to_send, set_purged, preferences, navto) {
   if (data_to_send.result) {
     return (
       <ScheduleResultContainer>
+        <h2>¡Listo! Este es el mejor horario para ti.</h2>
         <Schedule data={data_to_send.result} isDinamic={true} />
         <AditionalTextContainer>
-          <span></span> <span>¡Listo! Este es tu nuevo horario.</span>{" "}
-          <span></span>
+          <span>Detalles de tu población.</span>
+          <span>
+            Alternativa{" "}
+            <strong style={{ fontWeight: 500 }}>
+              {convertirBase(
+                data_to_send.general.seed,
+                data_to_send.general.seed_base + 1,
+                10
+              ).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
+            </strong>
+            de{" "}
+            <strong style={{ fontWeight: 500 }}>
+              {data_to_send.general.possibilities.replace(
+                /\B(?=(\d{3})+(?!\d))/g,
+                ","
+              )}
+            </strong>
+          </span>
         </AditionalTextContainer>
+        <AditionalData data={data_to_send} />
       </ScheduleResultContainer>
     );
   }
@@ -84,12 +103,6 @@ function renderCalendar(data_to_send, set_purged, preferences, navto) {
       }, 3000);
       set_purged({ error: true });
     });
-  console.log(
-    JSON.stringify({
-      preferences: preferences,
-      assignatures: data_to_send,
-    })
-  );
 
   return (
     <ScheduleResultContainer>
@@ -99,4 +112,11 @@ function renderCalendar(data_to_send, set_purged, preferences, navto) {
       </AditionalTextContainer>
     </ScheduleResultContainer>
   );
+}
+
+function convertirBase(numero, baseOrigen, baseDestino) {
+  var decimal = parseInt(numero, baseOrigen);
+  var resultado = decimal.toString(baseDestino);
+
+  return resultado;
 }

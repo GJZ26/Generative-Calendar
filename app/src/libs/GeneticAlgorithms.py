@@ -13,6 +13,8 @@ class GenAlg:
 
     def run(self):
         print("Initializing...")
+        if (len(self.individuals.keys_sorted) == 0):
+            return "No hay materias diponibles por cargar."
 
         result = self.initialize()
         response = self.optimization_loop(result)
@@ -26,7 +28,7 @@ class GenAlg:
                 "seed_size": self.individuals.get_seed_size(),
                 "seed_base": self.individuals.get_seed_base()
             },
-            "stats":self.stats
+            "stats": self.stats
         }
 
     def initialize(self):
@@ -49,7 +51,6 @@ class GenAlg:
             self.first_generation.append(result)
 
     def save_stats(self, gen):
-        self.stats.append(gen["stats"])
 
         # NO MOVER EL ORDEN DE ESTAS DOS LINEAS
         self.global_best_legal["seed"] = (
@@ -66,11 +67,29 @@ class GenAlg:
             else self.global_best_legal["value"]
         )
 
+        self.global_worst_legal["seed"] = (
+            gen["log"][0]["seed"]
+            if gen["stats"]["worst_legal"] is not None
+            and gen["stats"]["worst_legal"] < self.global_worst_legal["value"]
+            else self.global_worst_legal["seed"]
+        )
+
+        self.global_worst_legal["value"] = (
+            gen["stats"]["worst_legal"]
+            if gen["stats"]["worst_legal"] is not None
+            and gen["stats"]["worst_legal"] < self.global_worst_legal["value"]
+            else self.global_worst_legal["value"]
+        )
+        gen["stats"]["worst_legal"] = self.global_worst_legal["value"]
+        gen["stats"]["best_legal"] = self.global_best_legal["value"]
+        self.stats.append(gen["stats"])
+
     def optimization_loop(self, first_gen):
         current_generation = first_gen
         self.stats = []
+
         self.global_best_legal = {"value": -1, "seed": None}
-        self.global_worst_legal = {"value": -1, "seed": None}
+        self.global_worst_legal = {"value": 999, "seed": None}
 
         self.save_stats(current_generation)
 
@@ -88,6 +107,14 @@ class GenAlg:
                     "seed"
                 ]
 
+            if (
+                self.global_worst_legal["seed"] is not None
+                and self.global_worst_legal["seed"] not in cross_result
+            ):
+                cross_result[randrange(0, len(cross_result))] = self.global_worst_legal[
+                    "seed"
+                ]
+
             current_generation = self.individuals.calculate_from_list(
                 cross_result)
 
@@ -95,7 +122,6 @@ class GenAlg:
 
             if len(cross_result) > self.preferences["maximum_population"]:
                 current_generation = self.pruning(current_generation)
-                print(len(cross_result))
 
         # Fuera del bucle
         print(
@@ -155,18 +181,19 @@ class GenAlg:
 
     # Estrategia P2: (90 %) Eliminación aleatoria asegurando mantener al mejor individuo de la población.
     def pruning(self, individual):
-        maximum_population = self.preferences["maximum_population"] # Este es el valor más grande que debe haber en la población
-        current_population = individual["log"] # Este es el array de la población actual
-        exceeded_element = abs(len(current_population) - maximum_population) # Es la cantidad de por la cual supera al limite permitido
-
+        # Este es el valor más grande que debe haber en la población
+        maximum_population = self.preferences["maximum_population"]
+        # Este es el array de la población actual
+        current_population = individual["log"]
+        # Es la cantidad de por la cual supera al limite permitido
+        exceeded_element = abs(len(current_population) - maximum_population)
 
         items_index_for_deletion = sample(
             range(len(individual["log"])), exceeded_element)
 
-        while(len(current_population) > maximum_population):
+        while (len(current_population) > maximum_population):
             index_to_delete = randrange(0, len(current_population))
             del individual["log"][index_to_delete]
 
         print("\t* Pruning.")
         return individual
-

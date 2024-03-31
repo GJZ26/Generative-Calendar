@@ -27,7 +27,7 @@ export default function PreferencesContent() {
   return (
     <>
       <HorizontalContainer>
-        <div className="stress">
+        {/* <div className="stress">
           <span className="as-label">Nivel de estrés</span>
 
           <label className="as-input">
@@ -73,7 +73,7 @@ export default function PreferencesContent() {
               onChange={handleStressChange}
             />
           </label>
-        </div>
+        </div> */}
 
         <label>
           Cuatrimestre entrante

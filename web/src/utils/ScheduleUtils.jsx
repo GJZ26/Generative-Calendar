@@ -31,6 +31,8 @@ export default function renderTableContent(data) {
         name: ass.name,
         teacher: ass.teacher,
         id: ass.id,
+        quarter: ass.quarter,
+        group: ass.group,
       };
     });
   });
@@ -54,10 +56,15 @@ export default function renderTableContent(data) {
         row.push(
           <td
             key={rowCount}
+            className="al"
             style={{
               backgroundColor: map_color[dataOrderedByHour[rowCount]["id"]],
             }}
           >
+            <span className="grade">
+              {dataOrderedByHour[rowCount]["quarter"]}°
+              {dataOrderedByHour[rowCount]["group"]}
+            </span>
             <span>{dataOrderedByHour[rowCount]["name"]}</span>
             <span className="teacher-name">
               {dataOrderedByHour[rowCount]["teacher"]}
