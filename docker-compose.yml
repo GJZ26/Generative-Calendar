@@ -1,14 +1,15 @@
 version: "3"
 
+name: "generative-calendar"
 services:
-  webappia:
+  web-app:
     build:
       context: ./web
       dockerfile: Dockerfile
     ports:
       - "80:80"
 
-  backia:
+  back-service:
     build:
       context: ./app
       dockerfile: Dockerfile
