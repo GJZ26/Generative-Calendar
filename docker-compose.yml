@@ -6,7 +6,7 @@ services:
       context: ./web
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "80:80"
 
   back-service:
     build:
