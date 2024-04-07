@@ -312,7 +312,7 @@ La franja horaria es una forma numérica de definir que horas de la semana se im
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{images/franja-horaria.png}
-    \caption{Representación de los valores de la franjaa horaria.}
+    \caption{Representación de los valores de la franja horaria.}
     \label{fig:franja-horaria}
 \end{figure}
 
@@ -322,7 +322,7 @@ $[2, 3, 10, 26, 27, 38, 39, 40]$ tendría una distribución visual en el horario
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{images/franja-horaria-caso.png}
-    \caption{Franjaa horaria: Ejemplo 1.}
+    \caption{Franja horaria: Ejemplo 1.}
     \label{fig:franja-horaria-caso}
 \end{figure}
 
@@ -330,7 +330,7 @@ $[2, 3, 10, 26, 27, 38, 39, 40]$ tendría una distribución visual en el horario
 Ahora, hablaremos sobre cómo nuestro algoritmo procesó a las materias reales para carga (ver definición \ref{eq:definicion_materiales_reales_de_carga}), para esto es indispensables definir 3 nuevos concepto que nos ayudó a tener un registro de aquellos horarios que cumplen con todos los criterios para poder ser cursado, y evaluar la mejor alternativa, estos conceptos son: semilla, longitud de semilla y base aritmética, que se explica a profundidad en las secciones \ref{semilla}, \ref{longitud_de_semilla} y \ref{base_aritmetica} respectivamente.
 
 \subsubsection{Semilla} \label{semilla}
-La semilla corresponde a un idnetificador único para cada nuevo horario o individuo generado, consta de una longitud de carácteres definido en la longitud de semilla de la sección \ref{longitud_de_semilla}, y sirve para poder replicar un individuo en cualquier parte del tiempo y bajo el mismo contexto de materias. Esto permite replicar de forma seguro e inequívoca a aquellos horarios pertinentes para visualización.
+La semilla corresponde a un identificador único para cada nuevo horario o individuo generado, consta de una longitud de carácteres definido en la longitud de semilla de la sección \ref{longitud_de_semilla}, y sirve para poder replicar un individuo en cualquier parte del tiempo y bajo el mismo contexto de materias. Esto permite replicar de forma seguro e inequívoca a aquellos horarios pertinentes para visualización.
 
 \subsubsection{Longitud de semilla}\label{longitud_de_semilla}
 La longitud de semilla correponde a la cantidad de carácteres que tendrá una semilla, esto es importante para hacer que las semillas generadas cubran por completo todas las posibles combinaciones de horarios y evitando dejar generaciones imposibles de replicar o semillas tan largas que abarcan generaciones fuera del rango de posibilidades. 
